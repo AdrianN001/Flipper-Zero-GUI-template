@@ -18,7 +18,7 @@ It can be implemented in the individual ```_on_event()``` functions.
 
 ## Requirements
 
-- optional: ufbt (instead of ```fbt`` offered by the flipper's firmware)
+- optional: [ufbt](https://github.com/flipperdevices/flipperzero-ufbt) (instead of ```fbt``` offered by the flipper's firmware)
 
 ## Sources and useful websites
 - [Lopaka](https://lopaka.app/) : Web-based GUI builder from many platforms, including Flipper Zero
