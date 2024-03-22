@@ -1,0 +1,11 @@
+App(
+    appid="template",
+    name="Template",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="template_main",
+    requires=["gui"],
+    stack_size=3 * 1024,
+    fap_icon="template_10px.png",
+    fap_category="templates",
+
+)

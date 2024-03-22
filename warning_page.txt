@@ -1,0 +1,23 @@
+canvas_set_font(canvas, FontSecondary);
+canvas_draw_str(canvas, 3, 10, "Connect your flipper to an");
+
+canvas_draw_icon(canvas, 0, 22, &I_WarningDolphin_45x42);
+
+canvas_set_font(canvas, FontPrimary);
+canvas_draw_str(canvas, 50, 28, "MCP2515");
+
+canvas_set_font(canvas, FontSecondary);
+canvas_draw_str(canvas, 55, 40, "module");
+
+canvas_draw_frame(canvas, 46, 16, 56, 16);
+
+canvas_draw_icon(canvas, 119, 55, &I_Lock_8x8);
+
+canvas_set_font(canvas, FontSecondary);
+canvas_draw_str(canvas, 47, 51, "and fire up that ");
+
+canvas_set_font(canvas, FontSecondary);
+canvas_draw_str(canvas, 49, 62, "ENGINE");
+
+canvas_draw_frame(canvas, 47, 53, 35, 11);
+
